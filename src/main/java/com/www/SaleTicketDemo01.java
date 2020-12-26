@@ -22,7 +22,7 @@ public class SaleTicketDemo01 {
         }, "B").start();
         new Thread(() -> {
             for (int i = 1; i < 40; i++) {
-                ticket.sale();
+                 ticket.sale();
             }
         }, "C").start();
     }
